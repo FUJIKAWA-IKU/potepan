@@ -1,0 +1,1004 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #222222;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+.hover-opacity {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hover-opacity:hover {
+  opacity: 0.7;
+}
+
+/*    ヘッダー    */
+
+.header-wrapper {
+  position: absolute;
+  padding: 25px 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-img {
+  width: 185px;
+  display: inline-block;
+}
+
+.header-img img {
+  width: 100%;
+}
+
+.header-menu {
+  display: inline-block;
+}
+
+.header-list {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+}
+
+.header-item {
+  display: inline-block;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.header-item a {
+  color: #222222;
+  font-weight: 700;
+}
+
+.header-item span {
+  font-size: 10px;
+  display: block;
+}
+
+.header-button {
+  background-color: #f79314;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 30px;
+  vertical-align: top;
+}
+
+.header-button a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/*    メイン > トップ    */
+
+.top-wrapper {
+  background-image: url("img/top-hero.png");
+  background-size: auto 100%;
+  background-position: right 0;
+  background-repeat: no-repeat;
+  padding-top: 180px;
+}
+
+.top-title {
+  padding-left: 50px;
+  display: flex;
+}
+
+.top-box {
+  width: 350px;
+  margin-right: 20px;
+}
+
+.top-title h3 {
+  font-size: 20px;
+  line-height: 34px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 25px 0;
+}
+
+.top-title span {
+  color: #f79314;
+}
+
+.top-img1 {
+  width: 100%;
+}
+
+.top-img1 img {
+  width: 100%;
+}
+
+.top-button {
+  text-align: center;
+}
+
+.top-button a {
+  color: #fff;
+  display: inline-block;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  background-color: #f79314;
+  border-radius: 30px;
+  padding: 20px;
+  border-radius: 30px;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.top p {
+  font-size: 10px;
+  color: #888;
+  line-height: 15px;
+  padding-left: 50px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+/*    メイン > POTEPAN CAMPとは    */
+
+.aboutpo {
+  background-color: #f79314;
+  padding-bottom: 80px;
+}
+
+.bnr {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0 30pX;
+}
+
+.bnr img {
+  width: 100%;
+}
+
+.aboutpo h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.aboutpo-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.aboutpo-content span {
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+}
+
+.aboutpo-content {
+  display: inline-block;
+  width: 60%;
+}
+
+.aboutpo-content p {
+  color: #fff;
+  line-height: 34px;
+}
+
+.aboutpo-button {
+  text-align: center;
+  align-self: center;
+}
+
+.aboutpo-button a {
+  background-color: #fff;
+  color: #f79314;
+  border-radius: 30px;
+  padding: 5px 0;
+  width: 300px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  
+}
+
+.aboutpo-button span:first-child {
+  letter-spacing: 4px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.aboutpo-button span:last-child {
+  display: block;
+}
+
+
+/*    メイン > MOVIE    */
+
+
+.movie {
+  text-align: center;
+  padding: 50px 0 100px;
+}
+
+.title {
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.title h2{
+  font-size: 46px;
+}
+
+.title p {
+  font-size: 16px;
+  padding: 10px 0 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.line {
+  content: "";
+  display: block;
+  background-color:#f79314;
+  height: 6px;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*    メイン > ポテパンキャンプの特徴    */
+
+.box {
+  background-color: rgb(252, 250, 244);
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px 40px 50px;
+  margin: 100px 50px;
+  position: relative;
+}
+
+.box-no {
+  color: #f79314;
+  background-color: rgb(252, 250, 244);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100px;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+.box h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding: 30px 0;
+}
+
+.box-01 {
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+}
+
+.box-01 p {
+  display: inline-block;
+  margin: 0 auto;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.box-01::before {
+  content: "";
+  display: block;
+  background-color: #f79314;
+  height: 4px;
+  width: 230px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 70px;
+}
+
+.box-01icon {
+  width: 35px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.box-01icon img {
+  width: 100%;
+}
+
+.box-01 ul {
+  padding: 20px 0;
+}
+
+.box-01 li {
+  display: inline-block;
+  width: 20%;
+  margin: 0 7px;
+}
+
+.box-01 li > img {
+  width: 100%;
+}
+
+.description span {
+  font-size: 30px;
+  color: #f79314;
+  line-height: 30px;
+}
+
+.box-02 {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.box-02 li {
+  width: 25%;
+  margin: 0 2%;
+  display: inline-block;
+}
+
+.box-02 li > img {
+  width: 100%;
+}
+
+.engineerslist li {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 30%;
+  margin: 0 10px;
+  display: inline-block;
+  height: 400px;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.company {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+
+.company img {
+  width: 100%;
+}
+
+.engineer-box {
+  display: flex;
+}
+
+.engineer {
+  display: inline-block;
+}
+
+.engineer-dc {
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.engineer-dc p:first-child {
+  color: #f79314;
+  line-height: 21px;
+}
+
+.engineer-dc p:last-child {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.comment {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  padding: 20px 15px;
+  line-height: 21px;
+  margin: 20px 0;
+  text-align: left;
+  position: relative;
+}
+
+.comment::before {
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #f6f6f6;
+  height: 0px;
+  width: 0px;
+  position: absolute;
+  top: -20px;
+}
+
+/*    メイン > POTEPANCAMPの選べるコース    */
+
+.course {
+  background-position: relative;
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.potepan-wrapp {
+  background-image: url("img/bg-section-top-course.png");
+  background-size: 281px 275px;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 50px) top;
+}
+
+.course-box {
+  background-color: #fff;
+  padding: 30px 0;
+  margin: 20px 50px 40px;
+  align-items: center;
+}
+
+.course-box:hover > .course-dc > .kotira{
+  color: #f79314;
+}
+
+.gra-webapp {
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: -30px;
+  text-align: center;
+  padding: 3px;
+  height: auto;
+  padding: 0;
+  width: 30%;
+  border-left: 3px solid #ff6d00;
+  border-right: 3px solid #f79214;
+}
+
+.gra-webapp::before,
+.gra-webapp::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(to right, #ff6d00 0%, #f79214 100%);
+}
+
+.gra-webapp h3 {
+  display: inline-block;
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.gra-rails {
+  display: inline-block;
+  margin-right: 40px;
+  margin-left: -30px;
+  text-align: center;
+  padding: 3px;
+  height: auto;
+  padding: 0;
+  width: 30%;
+  border-left: 3px solid #f79214;
+  border-right: 3px solid #ff6d00;
+}
+
+.gra-rails::before,
+.gra-rails::after{
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(to right, #f79214 0%, #ff6d00 100%);
+}
+
+.gra-rails h3 {
+  display: inline-block;
+  color: #222;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.webcourse {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.course-dc {
+  display: inline-block;
+  vertical-align: top;
+  width: 62%;
+}
+
+.webapp {
+  color: #f79314;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.rails {
+  color: #f75307;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.oubo {
+  background-color: #212121;
+  border-radius: 20px;
+  display: inline-block;
+  color: #fff;
+  line-height: 21px;
+  padding: 3px 20px;
+  text-align: center;
+  margin: 20px 0 8px;
+}
+
+.jouken {
+  color: #222;
+  font-weight: 700;
+}
+
+.jouken::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  vertical-align: middle;
+  background-color: #f79214;
+  margin: 0 10px;
+}
+
+.kotira {
+  text-align: right;
+  font-size: 12px;
+  line-height: 18px;
+  color: #999;
+  position: relative;
+}
+
+.kotira::after {
+  content: "";
+  display: inline-block;
+  border-bottom: 3px solid #f79314;
+  border-right: 3px solid #f79314;
+  width: 8px;
+  height: 8px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 4px;
+  right: -16px;
+}
+
+.course-button {
+  text-align: center;
+  margin: 60px 0 80px;
+}
+
+.course-button a {
+  background-color: #f79314;
+  color: #fff;
+  border-radius: 30px;
+  padding: 5px 0;
+  width: 300px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.course-button span:first-child {
+  letter-spacing: 4px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.course-button span:last-child {
+  display: block;
+}
+
+/*    メイン > サービスの想い    */
+
+.message {
+  background-color: #fcfaf5;
+  padding: 30px 50px;
+}
+
+.message-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.message-content {
+  background-color: #fff;
+  padding: 20px 150px 30px 40px;
+  margin-right: -100px;
+  width: 70%;
+  display: inline-block;
+}
+
+.message-content h4 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 3px;
+  background: -webkit-linear-gradient(0deg, #ff802c, #f79214);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: -50px;
+  margin-left: -20px;
+}
+
+.message-content p {
+  line-height: 28px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.message-set {
+  width: 400px;
+  display: inline-block;
+  position: relative;
+}
+
+.message-image {
+  width: 100%;
+}
+
+.message-image img {
+  width: 100%;
+}
+
+.message-set p {
+  position: absolute;
+  color: #fff;
+  text-shadow: 1px 1px 10px #808080;
+  top: 20px;
+  left: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.message-set p > span {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/*    メイン > 受講生の声    */
+
+.voices {
+  padding: 0 50px;
+}
+
+.voice-list {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.voice-item {
+  width: calc(100% / 3);
+  padding: 0 20px;
+  position: relative;
+}
+
+.voice-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.voice-img::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.voice-img img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.voice-title {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to top, #000c 55%, #1e1e1eb3, #32323200);
+  padding: 70px 15px 20px;
+}
+
+.voice-course {
+  color: #f79314;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 700;
+  border-bottom: 1px solid #fff;
+}
+
+.voice-name {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.voice-name span {
+  font-size: 12px;
+  line-height: 18px;
+  padding-left: 5px;
+}
+
+.voice-comment {
+  color: #222;
+  font-size: 15px;
+  line-height: 27px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+
+.voice-item:hover > a > .voice-img > .voice-zoom {
+  transform: scale(1.1,1.1);
+}
+
+.voice-item:hover > a > .voice-comment{
+  color: #f79314;
+}
+
+/*    メイン > POTEPANが運用するサービス    */
+
+.service {
+  background-color: #f6f6f6;
+  position: relative;
+  padding: 40px 0;
+}
+
+.service-list {
+  text-align: center;
+  padding: 30px 0 60px;
+}
+
+.service-item {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 20px;
+  text-align: left;
+  
+}
+
+.service-item p {
+  color: #222;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.service-img {
+  padding: 0px 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  overflow: hidden;	
+}
+
+.service-img img {
+  width: 100%;
+}
+
+.orange-bdr {
+  border-color: #f75307;
+}
+
+.green-bdr {
+  border-color: #08af77;
+}
+
+.black-bdr {
+  border-color: #000;
+}
+
+.hover-zoom {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.hover-org {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.service-item:hover > a > .service-img > .hover-zoom {
+  transform: scale(1.05,1.05);
+}
+
+.service-item:hover > a > .hover-org {
+  color: #f79314;
+}
+
+/*    フッター    */
+
+.footer-wrapper {
+  background-color: #f79314;
+  color: #fff;
+  padding: 80px 50px 40px;
+  position: relative;
+}
+
+.page-top {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+  right: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 12px 30px -15px;
+  scroll-behavior: smooth;
+}
+
+.page-top-arrow {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-left: solid 3px #f79214;
+  border-top: solid 3px #f79214;
+  transform: rotate(45deg);
+  text-decoration: none;
+  text-indent: 100%;
+  
+  overflow: hidden;
+}
+
+.page-top:hover {
+  background-color: #f79214;
+}
+
+.page-top:hover > .page-top-arrow {
+  border-left: solid 3px #fff;
+  border-top: solid 3px #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo-img {
+  width: 280px;
+  padding-bottom: 20px;
+}
+
+.footer-logo-img img {
+  width: 100%;
+}
+
+.footer-left p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.footer-icon {
+  width: 60px;
+  display: inline-block;
+  padding-top: 25px;
+  margin-right: 20px;
+}
+
+.footer-icon img {
+  width: 100%;
+}
+
+.footer-list {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer-list li {
+  margin-bottom: 30px;
+}
+
+.footer-list li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-list a {
+  color: #fff;
+}
+
+.footer-list span {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.footer-img {
+  width: 120px;
+  align-self: flex-end;
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.inc {
+  font-size: 12px;
+  padding-top: 40px;
+}
